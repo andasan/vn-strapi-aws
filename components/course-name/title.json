@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_course_name_titles",
+  "info": {
+    "name": "title",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

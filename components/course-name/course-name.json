@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_course_name_course_names",
+  "info": {
+    "name": "course_name",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

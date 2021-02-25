@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs",
+  "info": {
+    "name": "Programs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "course_title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-name.title"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
